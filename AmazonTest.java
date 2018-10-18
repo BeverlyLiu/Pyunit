@@ -32,7 +32,7 @@ public class AmazonTest {
 		
 		searchIcon.click();
 		WebElement status = driver.findElement(By.id("s-result-count"));
-		String text = "1-16 of 139 results for \"selenium webdriver\"";
+		String text = "1-16 of 136 results for \"selenium webdriver\"";
 		assertEquals(text, status.getText());
 	}
 }
